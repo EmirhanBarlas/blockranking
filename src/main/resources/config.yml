@@ -1,0 +1,28 @@
+# config.yml
+
+# PlaceholderAPI'nin kullanılabilmesi için gerekli ayarlar
+placeholderapi:
+  use: true
+
+# Data dosyasının adı ve yolu
+data-file: data.yml
+
+# Block Ranking komutunu kullanma izni
+block-ranking-command-permission: "blockranking.use"
+
+# Izni olmayan oyunculara gönderilecek mesaj
+no-permission-message: "&cYou do not have permission to use this command."
+
+# /blockranking komutu çıktısını düzenleme
+block-ranking-format:
+  header: "&6Top 3 Block Breakers:"
+  entry: "&e{rank}. {player}: {blocks} blocks"
+
+# MySQL bağlantı ayarları
+mysql:
+  use-mysql: false
+  host: "localhost"
+  port: 3306
+  database: "blockranking"
+  username: "root"
+  password: "password"

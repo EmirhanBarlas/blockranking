@@ -1,0 +1,7 @@
+org\splendid\season\DatabaseManager.class
+org\splendid\season\DatabaseManager$1.class
+org\splendid\season\BlockBreakListener.class
+org\splendid\season\BlockRankingPlugin.class
+org\splendid\season\Main.class
+org\splendid\season\BlockRankingPlaceholder.class
+org\splendid\season\BlockRankingCommand.class

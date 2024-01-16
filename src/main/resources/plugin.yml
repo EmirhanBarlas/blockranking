@@ -1,0 +1,20 @@
+name: BlockRankingPlugin
+version: 1.0
+main: org.splendid.season.Main
+api-version: 1.16
+description: Sıralama Eklentisi
+
+author: _Barlas_
+website: https://splendidnw.com
+
+depend: [PlaceholderAPI]
+
+commands:
+  blockranking:
+    description: Block kırma sıralamasını görüntüler.
+    usage: /blockranking
+
+permissions:
+  blockranking.command:
+    description: Block kırma sıralamasını görüntüleme izni.
+
